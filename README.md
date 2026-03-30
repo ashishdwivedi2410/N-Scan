@@ -1,20 +1,35 @@
-# N-Scan
+# N-Scan 
+### Network Monitoring, Scanning & Anomaly Detection System
 
-# N-Scan - Network Monitoring & Analysis System
+N-SCAN AI is a Python-based intelligent network monitoring tool that combines packet sniffing, port scanning, and machine learning-based anomaly detection with a real-time web dashboard.
 
-N-Map is a Python-based network monitoring and analysis tool that captures packets, analyzes traffic, and detects suspicious activity.
+---
 
-## Features
-- Real-time packet sniffing
-- Port scanning
-- Suspicious activity detection
-- CLI-based interface
+## 🔥 Features
 
-## Tech Stack
+- 📡 Real-time packet sniffing (Scapy)
+- 🌐 Port scanning (Socket Programming)
+- 🧠 ML-based anomaly detection (Isolation Forest)
+- 📊 Live dashboard using Flask
+- 🗄️ SQLite database logging
+- 🚨 Suspicious traffic detection
+
+---
+
+## 🧠 Tech Stack
+
 - Python
+- Flask
 - Scapy
-- Socket Programming
+- Scikit-learn
+- SQLite
+- HTML/CSS
 
-## Run
+---
+
+## ⚙️ Installation
+
 ```bash
-python main.py
+git clone https://github.com/yourusername/n-scan-ai.git
+cd n-scan-ai
+pip install -r requirements.txt
