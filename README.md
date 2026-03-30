@@ -30,6 +30,6 @@ N-SCAN AI is a Python-based intelligent network monitoring tool that combines pa
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/n-scan-ai.git
-cd n-scan-ai
+git clone https://github.com/ashishdwivedi2410/N-Scan.git
+cd N-Scan
 pip install -r requirements.txt
