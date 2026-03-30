@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>N-MAP AI Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>🚀 N-MAP AI Dashboard</h1>
+
+<table>
+    <tr>
+        <th>Source</th>
+        <th>Destination</th>
+        <th>Port</th>
+        <th>Size</th>
+        <th>Status</th>
+    </tr>
+
+    {% for log in logs %}
+    <tr>
+        <td>{{ log[1] }}</td>
+        <td>{{ log[2] }}</td>
+        <td>{{ log[3] }}</td>
+        <td>{{ log[4] }}</td>
+        <td class="{{ log[5] }}">{{ log[5] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
