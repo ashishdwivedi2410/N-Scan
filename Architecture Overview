@@ -1,0 +1,3 @@
+Packet Sniffer → Feature Extractor → ML Model → Flask Dashboard
+                         ↓
+                    SQLite Logs
